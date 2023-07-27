@@ -4,12 +4,13 @@ import (
 	"crypto/rc4"
 	"crypto/sha256"
 	"encoding/base64"
+
 	"golang.org/x/crypto/pbkdf2"
 )
 
 // encrypt tool
-var pass = "lzzzz"
-var key1 = "noir"
+var pass = "1234"
+var key1 = "123"
 
 func Rc4Encrypt(plaintext []byte, key []byte) []byte {
 	// generate cipher.Block
