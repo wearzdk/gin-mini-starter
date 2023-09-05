@@ -20,3 +20,4 @@ config.yml
 log.txt
 .idea
 *.db
+data.db
